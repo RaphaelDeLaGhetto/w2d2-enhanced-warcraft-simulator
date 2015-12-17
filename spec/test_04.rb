@@ -42,5 +42,4 @@ describe Barracks do
       expect(@barracks.train_footman).to be_a(Footman)
     end
   end
-
 end
