@@ -13,4 +13,8 @@ class Unit
   def damage(dmg)
     @health_points -= dmg
   end
+
+  def dead?
+    self.health_points < 1
+  end
 end
