@@ -1,7 +1,8 @@
-class Barracks
+class Barracks < Unit
   attr_accessor :food, :gold
 
   def initialize
+    super(500, 0)
     @food = 80
     @gold = 1000
   end
